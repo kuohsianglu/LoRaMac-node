@@ -3235,7 +3235,7 @@ static void ResetMacParameters( bool isRejoin )
     LoRaMacClassBInit( &classBParams, &classBCallbacks, &Nvm.ClassB );
 }
 
-static bool IsReJoin0Required( )
+static bool IsReJoin0Required( void )
 {
 
     if( ( Nvm.MacGroup2.Rejoin0UplinksLimit == Nvm.MacGroup1.Rejoin0UplinksCounter ) &&
