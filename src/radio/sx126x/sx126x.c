@@ -22,7 +22,7 @@
  */
 #include <string.h>
 #include "utilities.h"
-#include "timer.h"
+#include "lm_timer.h"
 #include "radio.h"
 #include "delay.h"
 #include "sx126x.h"

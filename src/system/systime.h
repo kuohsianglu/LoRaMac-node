@@ -32,7 +32,7 @@ extern "C"
 
 #include <stdint.h>
 #include "time.h"
-#include "timer.h"
+#include "lm_timer.h"
 
 /*!
  * \brief Days, Hours, Minutes and seconds of systime.h
