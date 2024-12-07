@@ -34,7 +34,7 @@
 
 static uint32_t next = 1;
 
-int32_t rand1( void )
+static int32_t rand1( void )
 {
     return ( ( next = next * 1103515245L + 12345L ) % RAND_LOCAL_MAX );
 }

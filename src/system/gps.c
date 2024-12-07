@@ -243,7 +243,7 @@ int16_t GpsGetLatestGpsAltitude( void )
  *
  * \retval chkPosIdx Position of the checksum in the sentence
  */
-int32_t GpsNmeaChecksum( int8_t *nmeaStr, int32_t nmeaStrSize, int8_t * checksum )
+static int32_t GpsNmeaChecksum( int8_t *nmeaStr, int32_t nmeaStrSize, int8_t * checksum )
 {
     int i = 0;
     uint8_t checkNum = 0;
