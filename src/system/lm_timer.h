@@ -20,8 +20,8 @@
  *
  * \author    Gregory Cristian ( Semtech )
  */
-#ifndef __TIMER_H__
-#define __TIMER_H__
+#ifndef __LM_TIMER_H__
+#define __LM_TIMER_H__
 
 #ifdef __cplusplus
 extern "C"
